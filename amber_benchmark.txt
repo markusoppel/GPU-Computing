@@ -1,0 +1,34 @@
+Amber Benchmark pmemd myoglobin 2492 atoms in Generalized Born implicit solvent
+
+1 GPU node of Leonardo (https://www.hpc.cineca.it/systems/hardware/leonardo/)
+
+GPU (1 MPI rank):
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.320        0.320       99.8
+                 (ns/day)    (hour/ns)
+Performance:       54.479        0.441
+
+-------------------------------------------------------------
+CPU: (1 MPI rank):
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        9.024        9.024      100.0
+                 (ns/day)    (hour/ns)
+Performance:        1.934       12.410
+
+
+-------------------------------------------------------------
+CPU: (32 MPI ranks):
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:       23.048        0.723     3186.9
+                 (ns/day)    (hour/ns)
+Performance:       24.132        0.995
+
+-------------------------------------------------------------
+
+
+
