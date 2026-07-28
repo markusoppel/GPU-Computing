@@ -5,18 +5,18 @@ Amber Benchmark pmemd myoglobin 2492 atoms in Generalized Born implicit solvent
 GPU (1 MPI rank):
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.320        0.320       99.8
-                 (ns/day)    (hour/ns)
-Performance:       54.479        0.441
+       Time:       16.0        16.0          100.0 
+                    ns/day     seconds/ns
+Performance:        316.39     273.08
 
 -------------------------------------------------------------
 CPU: (1 MPI rank):
 
 
                Core t (s)   Wall t (s)        (%)
-       Time:        9.024        9.024      100.0
-                 (ns/day)    (hour/ns)
-Performance:        1.934       12.410
+       Time:        2.45     2.47
+                 (ns/day)    seconds/ns
+Performance:        1.41      61374.65
 
 
 -------------------------------------------------------------
@@ -24,9 +24,9 @@ CPU: (32 MPI ranks):
 
 
                Core t (s)   Wall t (s)        (%)
-       Time:       23.048        0.723     3186.9
-                 (ns/day)    (hour/ns)
-Performance:       24.132        0.995
+       Time:      0.88            1 
+                 (ns/day)    seconds/ns
+Performance:      32.22        2681.75 
 
 -------------------------------------------------------------
 
