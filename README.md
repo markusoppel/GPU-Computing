@@ -13,7 +13,12 @@ Pula, Sardinia, July 27–31, 2026. Organized by CRS4.
 - GPU-accelerated molecular dynamics and quantum chemistry
 - Case study: Amber benchmark of myoglobin on Leonardo (CINECA)
 
-## Files
+## Repository contents
 
-- `GPU Computing.pptx` — lecture slides
-- `amber_benchmark.txt` — performance results of pmemd (myoglobin, 2492 atoms) on one GPU node of Leonardo
+| Path | Description |
+|------|-------------|
+| `GPU Computing.pptx` | Lecture slides |
+| `LICENSE` | GPL-3.0 license for repository content |
+| `amber_benchmark.txt` | Amber benchmark results (myoglobin, 2492 atoms) on Leonardo GPU |
+| `benchmark_mpi.txt` | MPI scaling benchmark data for the same system |
+| `simple_cuda_program/` | Complete CUDA C vector addition example with Makefile and README |
