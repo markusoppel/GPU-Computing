@@ -2,6 +2,9 @@
 
 A minimal CUDA C program that adds two vectors on the GPU.
 
+Copyright (C) 2026 Markus Oppel, University of Vienna  
+License: GPL-3.0-or-later
+
 ## Prerequisites
 
 - NVIDIA GPU with CUDA support
